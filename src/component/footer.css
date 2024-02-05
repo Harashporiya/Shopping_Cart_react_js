@@ -1,0 +1,23 @@
+#footer{
+   color: white;
+   position: relative;
+   
+   font-size: 30px;
+ 
+}
+footer{
+    background-color: black;
+  
+   text-align: center;
+   
+   height: 250px;
+  
+}
+#heart{
+    color: rgb(255, 0, 0);
+}
+@media only screen and (max-width:550px) and (min-width:200px){
+    .shop_app{
+      font-size: 20px;
+    }
+}

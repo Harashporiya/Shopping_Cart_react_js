@@ -1,0 +1,15 @@
+#cart1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 50px;
+}
+body{
+    overflow-x: hidden;
+}
+.cart:hover {
+    box-shadow: 10px 20px rgb(0, 0, 0);
+    transform: skew(1.1deg,0);
+}
+
+

@@ -1,0 +1,129 @@
+#navbar{
+    display: flex;
+}
+#nav, #app{
+    display: flex;
+    font-size: 30px;
+    
+   
+}
+#nav ul{
+    display: flex;
+    width: 600px;
+    
+}
+#app{
+    width: 220px;
+}
+#nav{
+    margin-left: 400px;
+    border: 2px solid black;
+    border-radius: 50px;
+    height:100px ;
+}
+#home:hover{
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      transform: scale(1.1);     
+}
+#about:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;  
+    transform: scale(1.1); 
+}
+#shop:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px; 
+    transform: scale(1.1);  
+}
+#contact:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px; 
+    transform: scale(1.1);  
+}
+li {
+    list-style-type: none;
+    padding:0 20px;
+    margin: 0 2px;
+    font-size: 25px;
+    border-radius: 35px;
+    transition: all .6s;
+}
+#cart_icon{
+
+    font-size: 50px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-weight: 200;
+    transition: all .4s;
+    cursor: pointer;
+}
+.zero{
+    position: relative;
+    left: 400px;
+}
+#zero {
+    font-size: 24px;
+    position: absolute;
+    font-weight: 700;
+  background-color: #fff;
+    color: #000000;
+    padding: 0 4px;
+    border-radius: 50%;
+   
+    right: 30px;
+    top: 6px;
+}
+
+@media only screen and (max-width: 1342px){
+   #navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-right: 400px;
+   }
+   #app{
+    margin-left: 400px;
+   }
+   #nav{
+    height: 100px;
+    width: 400px;
+   }
+   ul li{
+    padding: 0 7px;
+    font-size: 20px;
+   }
+
+}
+
+
+@media only screen and (max-width: 1400px) and (min-width:200px){
+     .zero{
+    margin-right: 500px;
+      font-size: 40px;
+      padding: 10px 40px;
+   }
+}
+@media only screen and (max-width: 1900px) and (min-width:1342px){
+    .zero{
+        position: absolute;
+        left: 150vh;
+  }
+}
+@media only screen and (max-width:450px) and (min-width:200px){
+    #nav{
+        height: 60px;
+        width: 300px;
+        margin-right: 40px;
+       }
+       ul li{
+        padding: 0 7px;
+        font-size: 10px;
+       }
+}

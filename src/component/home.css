@@ -1,0 +1,38 @@
+#home_img{
+    height: 400px;
+    width: 600px;
+    border: 10px sloid rgb(240, 9, 9);
+}
+
+#shop_img{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+#para{
+    position: relative;
+    top: 100px;
+}
+#shopping{
+    text-align: center;
+    font-size: 80px;
+}
+@media only screen and (max-width:1300px) and (min-width:200px){
+    #shop_img{
+        display: block;
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+    }
+    #home_img{
+       height: 200px;
+        width: 250px;
+    }
+    #para{
+        margin-bottom: 100px;
+    }
+    #shopping{
+        font-size: 20px;
+    }
+}
